@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package  xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>    
+    <id>namespaced-http-controller-selector</id>
+    <version>1.0.0</version>
+    <title>NamespacedHttpControllerSelector</title>
+    <authors>Arthur Cardoso</authors>
+    <owners>stinow</owners>
+    <licenseUrl></licenseUrl>
+    <projectUrl>https://github.com/stinow/namespaced-http-controller-selector</projectUrl>
+    <iconUrl></iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>WebAPI HttpControllerSelector that takes into account ApiControllers namespaces to match different Area routes with same Controller name. Documentation in github page</description>
+    <releaseNotes>Initial Release</releaseNotes>
+    <copyright>Copyright 2019 @stinow</copyright>
+    <tags>web http area controller api</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.WebApi.Client" version="5.2.7" targetFramework="net462" />
+      <dependency id="Microsoft.AspNet.WebApi.Core" version="5.2.7" targetFramework="net462" />
+      <dependency id="System.Web.Http.Common" version="4.0.20126.16343" targetFramework="net462" />
+    </dependencies>
+    <summary>WebAPI HttpControllerSelector that takes into account ApiControllers namespaces to match different Area routes with same Controller name.</summary>
+  </metadata>
+  <files>
+    <file src="README.md" target="" />
+  </files>
+</package>
